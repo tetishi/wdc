@@ -83,7 +83,7 @@ a {
 
 .fv .fv-wrapper {
   display: flex;
-  background-image: url(../img/ceo.png);
+  background-image: url(../img/ceo.webp);
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 560px 736px;
@@ -318,7 +318,7 @@ a {
 }
 
 .registor-section-wrapper {
-  background-image: url(../img/registor-bg.jpg);
+  background-image: url(../img/registor-bg.webp);
   background-size: 400px;
   padding: 90px 0 110px;
 }
