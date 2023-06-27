@@ -99,9 +99,9 @@ a {
         background-image: url(../img/ceo.png);
         background-repeat: no-repeat;
         background-position: right bottom;
-        background-size: 560px 736px;
+        background-size: 560px 7px;
         // height: 100vh;
-        height: 700px;   
+        min-height: 630px;   
         position: relative; 
     }
     .page-title-wrapper {
