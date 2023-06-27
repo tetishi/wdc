@@ -1,4 +1,4 @@
-//base
+/* base */
 
 html {
     font-size: 62.5%;
@@ -37,7 +37,7 @@ a {
     display: none;
 }
 
-// header
+/* header */
 .header {
     position: fixed;
     padding: 30px;
@@ -347,6 +347,7 @@ a {
             transform: translateY(4px);
             box-shadow: 0 6px 0 #dd118e;
         }
+    
     }
 }
 .form-title {
@@ -396,9 +397,11 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    // text-align: center;
 
     .pagetop-arrow {
         color: #fff;
+        // text-align: center;
         .fa-angle-up {
             font-size: 40px;
             &::before {
@@ -416,12 +419,19 @@ a {
         padding: 0 20px;
     }
     .section-title {
+        // font-size: 6rem;
         font-size: 3.2rem;
+        // margin-bottom: 49px;
+        // width: 25%;
     }
     .section-under-title {
         font-size: 1.6rem;
+        // margin-top: 110px;
         margin-bottom: 6px;
         font-weight: bold;
+        // &:last-of-type {
+        //     margin-top: 90px;
+        // }
         margin-bottom: 20px;
     }
 
@@ -431,24 +441,47 @@ a {
 
     // header_sp
     .header {
+        // position: fixed;
         padding: 20px;
+        // max-width: 100%;
+        // top: 0;
+        // left: 0;
+        // z-index: 999;
+        // a {
+        //     text-decoration: none;
+        // }
     }
 
     .header-inner {
         column-gap: 30px;
     }
     .header-item {
+        // margin-right: 15px;
         font-size: 1.2rem;
         font-weight: bold;
     }
 
 
-    // fv_sp
+    // fv
     .fv {
+        // background: linear-gradient(
+        //     135deg,
+        //     #0e002e 0%,
+        //     #1e092b 23%,
+        //     #320c65 49%,
+        //     #a01b7c 80%,
+        //     #c21780 100%
+        // );
+
         .fv-wrapper {
+            // display: flex;
+            // background-image: url(../img/ceo.png);
+            // background-repeat: no-repeat;
             background-position: right -80px bottom;
             background-size: contain;
             min-height: 450px;
+            // min-height: 630px;   
+            // position: relative; 
         }
         .page-title-wrapper {
             padding-top: 100px;
@@ -456,45 +489,68 @@ a {
         }
         .page-title-upper {
             font-size: 1.6rem;
+            // font-size: 2.4rem;
+            // font-weight: bold;
+            // color: #D136D1;
             margin-bottom: 10px;
         }
         .page-title {
             font-size: 3.8rem;
+            // color: #fff;
+            // line-height: 1;
             margin-bottom: 5px;
         }
         .page-title-bottom {
             font-size: 2.0rem;
+            // font-weight: bold;
+            // color: #fff;
+            // margin-bottom: 25px;
         }
 
         .ceo-wrraper {
+            // position: absolute;
+            // bottom: 20px;
+            // right: 20px;
             padding-right: 15px;
         }
 
         .ceo-name {
             font-size: 1.4rem;
+            // color: #fff;
         }
         .ceo-occupation {
             font-size: 1.2rem;
+            // color: #fff;
         }
 
         .fv-btn {
+            // position: relative;
             &::after {
+                // display: block;
+                // content: "";
+                // position: absolute;
                 right: -30px;
                 bottom: 40px;
                 width: 180px;
                 height: 100px;
                 background-size: contain;
+                // background-image: url(../img/teiji-de-kaerumon.svg);
+                // background-repeat: no-repeat;
             }
         }
     }
 
 
-    // about_sp
+    // about
     .about-section-wrapper {
+        // background-color: #171717;
         padding: 50px 0;
     }
     .about-container {
         display: block;
+        // justify-content: space-between;
+        // align-items: center;
+        // column-gap: 70px;
     }
     .about-img-box {
         img {
@@ -504,60 +560,133 @@ a {
         }
     }
     .about-right-container {
+    //     p {
+    //         color: #fff;
+    //     }
         .top-text {
             font-size: 2rem;
+            // font-weight: bold;
             margin-bottom: 13px;
             margin-top: 13px;
         }
         .theme {
+            // color: #D136D1;
             font-size: 3.8rem;
             margin-bottom: 20px;
+            // font-weight: normal;
         }
         .theme-content {
             font-size: 1.6rem;
+    //         margin-bottom: 22px;
         }
         .about-table {
             font-size: 1.4rem;
+    //         color: #fff;
+    //         margin-bottom: 20px;
+    //         width: 100%;
+    //         border-collapse: collapse;
+    //         border-spacing: 0;
             th {
+    //             text-align: left;
                 padding: 2px 0;
             }
+    //         td {
+    //             text-align: left;
+    //             padding: 5px 0;
+    //         }
         }
     }
     .link-btn {
+    //     color: #fff;
+    //     display: block;
         width: 180px;
         line-height: 60px;
+    //     background: linear-gradient(to right, #BA2073, #664BBF);
+    //     border-radius: 100vh;
+    //     text-align: center;
+    //     transition: .3s;
+    //     box-shadow: 0 10px 0 #DD118E;
+    //     font-weight: bold;
+    //     font-size: 18px;
+
+        &:hover {
+    //         transform: translateY(4px);
+    //         box-shadow: 0 6px 0 #dd118e;
+        }
     }
 
 
 
-    // speaker_sp
+        // speaker
     .speaker-section-wrapper {
+    //     background: linear-gradient(135deg, #0F002E 0%, #1E092B 23%, #320C65 49%, #A01B7C 80%, #C21780 100%);
         padding: 60px 0;
     }
     .speaker-name {
         font-size: 3.2rem;
+    //     color: #D136D1;
+    //     margin-bottom: 2px;
     }
     .jp-name {
         font-size: 1.6rem;
+    //     color: #fff;
     }
     .speaker-text {
         margin-top: 25px;
+    //     color: #fff;
         font-size: 1.4rem;
     }
     .ceo-container {
+        // display: flex;
         flex-direction: column-reverse;
+    //     justify-content: space-between;
+    //     align-items: center;
+    //     margin-bottom: 60px;
+    //     column-gap: 60px;
     }
+
+    // .ceo-right {
+    //     max-width: 445px;
+    // }
+    // .ceo-left {
+    //     max-width: 605px;
+    // }
 
     .mihoko-container {
+        // display: block;
         flex-direction: column;
+    //     justify-content: space-between;
+    //     align-items: center;
+    //     margin-bottom: 60px;
+    //     column-gap: 60px;
     }
+    // .mihoko-left {
+    //     max-width: 445px;
+    // }
+    // .mihoko-right {
+    //     max-width: 605px;
+    // }
 
     .jecica-container {
+        // display: block;
         flex-direction: column-reverse;
+    //     justify-content: space-between;
+    //     align-items: center;
     }
+    // .jecica-right {
+    //     max-width: 445px;
+    // }
+    // .jecica-left {
+    //     max-width: 605px;
+    // }
 
-    //session_sp
+
+
+
+
+        //session
     .session-section-wrapper {
+    //     background-color: #141414;
         padding: 60px 0;
     }
     .session-list {
@@ -567,17 +696,25 @@ a {
         width: 60px;
     }
     .session-item {
+    //     display: flex;
+    //     border-bottom: 1px solid #D136D1;
         padding: 20px 0;
+    //     &:first-of-type {
+    //         padding: 101 0 41px;
+    //     }
         gap: 20px;
     }
     .session-item-time {
+    //     color: #fff;
         font-size: 1.6rem;
     }
     .session-item-title {
+    //     color: #D136D1;
         font-size: 1.8rem;
         margin-bottom: 1px;
     }
     .session-item-body {
+        // color: #fff;
         font-size: 1.4rem;
     }
 
@@ -585,7 +722,9 @@ a {
 
 
     //registor_sp
+
     .registor-section-wrapper {
+    //     background-size: 400px;
         padding: 50px 0 60px;
     }
     .form {
@@ -593,43 +732,114 @@ a {
     }
     .registor-container {
         padding: 7px 10px 20px 10px;
+    //     color: #fff;
+    //     max-width: 970px;
         margin: 26px auto 0;
+    //     background-color: #1A1A1A;
+    //     border: 5px solid #D136D1;
+    //     border-radius: 20px;
+    //     .form-required {
+    //         color: #D136D1;
+    //         margin-left: 10px;
+    //         font-size: 1.2rem;
+    //     }
+    //     input, textarea, select {
+    //         border-radius: 6px;
+    //     }
         .form-input, select {
             width: 100%;
+    //         height: 40px;
         }
         textarea {
             width: 100%;
+    //         height: 255px;
+    //         &::placeholder {
+    //             font-size: 16px;
+    //             padding: 13px 0 0 11px;
+    //             opacity: .5;
         }
+    // }    
     
         .form-btn {
+    //         display: block;
             width: 180px;
             line-height: 60px;    
+    //         background: linear-gradient(to right, #BA2073, #664BBF);
+    //         border-radius: 100vh;
+    //         text-align: center;
+    //         transition: .3s;
+    //         box-shadow: 0 10px 10 #DD118E;
+    //         margin: 0 auto;
             box-shadow: 0 5px 0 #DD118E;
+    //         button {
+    //             color: #fff;
+    //             font-size: 2rem;
+    //         }
+    //         &:hover {
+    //             transform: translateY(4px);
+    //             box-shadow: 0 6px 0 #dd118e;
+    //         }
         }
     }
+    // .form-title {
+    //     margin-bottom: 10px;
+    // }
+    // .first-point {
+    //     margin-bottom: 2px;
+    // }
     .checkbox-group {
         display: block;
+    //     .checkbox-item {
+    //         margin-right: 20px;
+    //         &:last-of-type {
+    //             margin-right: 0;
+    //         }
+    //     }
     }
+    // .form-item {
+    //     margin-bottom: 32px;
+    //     &:last-of-type {
+    //         margin-bottom: 40px;
+    //     }
+    // }
 
 
 
-    //footer_sp
+    //footer
     .footer {
+        // background-color: #141414;
         .footer-text {
+            // text-align: center;
+            // color: #fff;
             padding: 50px 20px;
             font-size: 1.2rem;
+            // font-weight: bold;
+            // letter-spacing: 0.08em;
         }
     }
 
     .pagetop {
         width: 50px;
         height: 50px;
+    //     background: linear-gradient(135deg, #C41A7F 0%, #664BBF 100%);
+    //     position: fixed;
         bottom: 25px;
         right: 20px;
+    //     border-radius: 50%;
+    //     cursor: pointer;
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
 
         .pagetop-arrow {
+    //         color: #fff;
             .fa-angle-up {
                 font-size: 1.7rem;
+    //             &::before {
+    //                 font-family: "Font Awesome 5 Free";
+    //                 font-weight: 900;
+    //                 content: "\f106";
+    //             }
             }
         }
     }

@@ -1,4 +1,4 @@
-//base
+/* base */
 
 html {
     font-size: 62.5%;
@@ -37,7 +37,7 @@ a {
     display: none;
 }
 
-// header
+/* header */
 .header {
     position: fixed;
     padding: 30px;
@@ -443,7 +443,7 @@ a {
     }
 
 
-    // fv_sp
+    // fv
     .fv {
         .fv-wrapper {
             background-position: right -80px bottom;
@@ -489,7 +489,7 @@ a {
     }
 
 
-    // about_sp
+    // about
     .about-section-wrapper {
         padding: 50px 0;
     }
