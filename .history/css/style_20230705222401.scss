@@ -21,6 +21,7 @@ img {
     font-size: 6rem;
     color: #D136D1;
     text-align: center;
+    
     // line-height: calc(113 / 60);
 }
 .section-under-title {
@@ -290,7 +291,6 @@ a {
     color: #fff;
     font-size: 2.2rem;
     white-space: nowrap;
-    padding-left: 31px;
 }
 .session-item-title {
     color: #D136D1;
@@ -582,7 +582,6 @@ a {
     .session-item-time {
         font-size: 1.6rem;
         white-space: normal;
-        padding-left: 0;
     }
     .session-item-title {
         font-size: 1.8rem;
