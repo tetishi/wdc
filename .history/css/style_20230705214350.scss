@@ -22,7 +22,7 @@ img {
     font-size: 6rem;
     color: #D136D1;
     text-align: center;
-    // line-height: calc(113 / 60);
+    line-height: ca;
 }
 .section-under-title {
     font-size: 2.2rem;
@@ -284,12 +284,11 @@ a {
     &:first-of-type {
         padding: 101 0 41px;
     }
-    gap: 141px;
+    gap: 140px;
 }
 .session-item-time {
     color: #fff;
     font-size: 2.2rem;
-    white-space: nowrap;
 }
 .session-item-title {
     color: #D136D1;
@@ -580,7 +579,6 @@ a {
     }
     .session-item-time {
         font-size: 1.6rem;
-        white-space: normal;
     }
     .session-item-title {
         font-size: 1.8rem;
