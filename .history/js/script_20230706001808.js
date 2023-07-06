@@ -1,9 +1,10 @@
 //ページトップへ戻る
 var $pageTop = $('.pagetop');
-$pageTop.hide();
 $(window).scroll(function () {
   if ($(this).scrollTop() > 300) {
+    $pageTop.pagetop.addClass('active');
     $pageTop.fadeIn();
+
   } else {
     $pageTop.fadeOut();
   }

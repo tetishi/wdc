@@ -1,6 +1,6 @@
 //ページトップへ戻る
 var $pageTop = $('.pagetop');
-$pageTop.hide();
+$pageTop.hide
 $(window).scroll(function () {
   if ($(this).scrollTop() > 300) {
     $pageTop.fadeIn();

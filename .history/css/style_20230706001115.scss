@@ -1,0 +1,650 @@
+//base
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    letter-spacing: .05em;
+    color: #171717;
+    font-family: 'Montserrat', sans-serif;
+}
+img {
+    vertical-align: bottom;
+}
+.section-inner {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.section-title {
+    font-size: 6rem;
+    color: #D136D1;
+    text-align: center;
+    // line-height: calc(113 / 60);
+    line-height: 1;
+}
+.section-under-title {
+    font-size: 2.2rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 6px;
+    font-weight: bold;
+    margin-bottom: 56px;
+}
+.theme, .theme-content, .about-content, .jp-name, .speaker-text, .session-right, .form {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.sp-br {
+    display: none;
+}
+
+// header
+.header {
+    position: fixed;
+    padding: 30px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    a {
+        text-decoration: none;
+    }
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-list {
+    display: flex;
+    list-style-type: none;
+}
+.header-item {
+    margin-right: 30px;
+    color: #FFFFFF;
+}
+.header-item:last-of-type {
+    margin-right: 0;
+}
+
+// fv
+.fv {
+    background: linear-gradient(
+        135deg,
+        #0e002e 0%,
+        #1e092b 23%,
+        #320c65 49%,
+        #a01b7c 80%,
+        #c21780 100%
+      );
+
+    .fv-wrapper {
+        display: flex;
+        background-image: url(../img/ceo.webp);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 560px 736px;
+        height: 700px;   
+        position: relative; 
+    }
+    .page-title-wrapper {
+        padding-top: 145px;
+    }
+    .page-title-upper {
+        font-size: 2.4rem;
+        font-weight: bold;
+        color: #D136D1;
+        margin-bottom: 5px;
+    }
+    .page-title {
+        font-size: 10rem;
+        color: #fff;
+        line-height: 1;
+    }
+    .page-title-bottom {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #fff;
+        margin-bottom: 25px;
+    }
+
+    .ceo-wrraper {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .ceo-name {
+        font-size: 2.1rem;
+        color: #fff;
+        font-weight: bold;
+    }
+    .ceo-occupation {
+        font-size: 1.4rem;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .fv-btn {
+        position: relative;
+        &::after {
+            display: block;
+            content: "";
+            position: absolute;
+            right: 40px;
+            bottom: 30px;
+            width: 326px;
+            height: 135px;
+            background-image: url(../img/teiji-de-kaerumon.svg);
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+// about
+.about-section-wrapper {
+    background-color: #171717;
+    padding: 110px 0;
+}
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 70px;
+}
+.about-right-container {
+    p {
+        color: #fff;
+    }
+    .top-text {
+        font-size: 2.4rem;
+        font-weight: bold;
+        margin-bottom: 13px;
+    }
+    .theme {
+        color: #D136D1;
+        font-size: 4.8rem;
+        margin-bottom: 39px;
+        font-weight: normal;
+    }
+    .theme-content {
+        font-size: 1.8rem;
+        margin-bottom: 22px;
+    }
+    .about-table {
+        color: #fff;
+        margin-bottom: 20px;
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        th {
+            text-align: left;
+            padding: 5px 0;
+        }
+        td {
+            text-align: left;
+            padding: 5px 0;
+        }
+    }
+}
+.link-btn {
+    color: #fff;
+    display: block;
+    width: 230px;
+    line-height: 63px;
+    background: linear-gradient(to right, #BA2073, #664BBF);
+    border-radius: 100vh;
+    text-align: center;
+    transition: .3s;
+    box-shadow: 0 10px 0 #DD118E;
+    font-weight: bold;
+    font-size: 18px;
+
+    &:hover {
+        transform: translateY(4px);
+        box-shadow: 0 6px 0 #dd118e;
+    }
+}
+
+
+// speaker
+.speaker-section-wrapper {
+    background: linear-gradient(135deg, #0F002E 0%, #1E092B 23%, #320C65 49%, #A01B7C 80%, #C21780 100%);
+    padding: 110px 0;
+}
+.speaker-name {
+    font-size: 4.2rem;
+    color: #D136D1;
+    margin-bottom: 2px;
+}
+.jp-name {
+    font-size: 1.8rem;
+    color: #fff;
+}
+.speaker-text {
+    margin-top: 40px;
+    color: #fff;
+    font-size: 1.6rem;
+}
+.ceo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    column-gap: 60px;
+}
+
+.ceo-right {
+    max-width: 445px;
+}
+.ceo-left {
+    max-width: 605px;
+}
+
+.mihoko-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    column-gap: 60px;
+}
+.mihoko-left {
+    max-width: 445px;
+}
+.mihoko-right {
+    max-width: 605px;
+}
+
+.jecica-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.jecica-right {
+    max-width: 445px;
+}
+.jecica-left {
+    max-width: 605px;
+}
+
+//session
+.session-section-wrapper {
+    background-color: #141414;
+    padding: 110px 0;
+}
+.session-item {
+    display: flex;
+    border-bottom: 1px solid #D136D1;
+    padding: 41px 0;
+    &:first-of-type {
+        padding: 101 0 41px;
+    }
+    gap: 141px;
+}
+.session-item-time {
+    color: #fff;
+    font-size: 2.2rem;
+    white-space: nowrap;
+    padding-left: 31px;
+}
+.session-item-title {
+    color: #D136D1;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+.session-item-body {
+    color: #fff;
+}
+
+//registor
+.registor-section-wrapper {
+    background-image: url(../img/registor-bg.webp);
+    background-size: 400px;
+    padding: 90px 0 110px;
+}
+.registor-container {
+    padding: 87px 88px 90px 88px;
+    color: #fff;
+    max-width: 970px;
+    margin: 56px auto 0;
+    background-color: #1A1A1A;
+    border: 5px solid #D136D1;
+    border-radius: 20px;
+    .form-required {
+        color: #D136D1;
+        margin-left: 10px;
+        font-size: 1.2rem;
+    }
+    input, textarea, select {
+        border-radius: 6px;
+    }
+    .form-input, select {
+        width: 300px;
+        height: 40px;
+    }
+    textarea {
+        width: 600px;
+        height: 255px;
+        &::placeholder {
+            font-size: 16px;
+            padding: 13px 0 0 11px;
+            opacity: .5;
+        }
+    }    
+    
+    .form-btn {
+        display: block;
+        width: 230px;
+        line-height: 63px;
+        background: linear-gradient(to right, #BA2073, #664BBF);
+        border-radius: 100vh;
+        text-align: center;
+        transition: .3s;
+        box-shadow: 0 10px 10 #DD118E;
+        margin: 0 auto;
+        box-shadow: 0 10px 0 #DD118E;
+        button {
+            color: #fff;
+            font-size: 2rem;
+        }
+        &:hover {
+            transform: translateY(4px);
+            box-shadow: 0 6px 0 #dd118e;
+        }
+    }
+}
+.form-title {
+    margin-bottom: 10px;
+}
+.first-point {
+    margin-bottom: 2px;
+}
+.checkbox-group {
+    display: flex;
+    .checkbox-item {
+        margin-right: 20px;
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+}
+.form-item {
+    margin-bottom: 32px;
+    &:last-of-type {
+        margin-bottom: 40px;
+    }
+}
+
+//footer
+.footer {
+    background-color: #141414;
+    .footer-text {
+        text-align: center;
+        color: #fff;
+        padding: 70px 20px;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 0.08em;
+    }
+}
+
+.pagetop {
+    display: none; important
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #C41A7F 0%, #664BBF 100%);
+    position: fixed;
+    bottom: 45px;
+    right: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .pagetop-arrow {
+        color: #fff;
+        .fa-angle-up {
+            font-size: 40px;
+            &::before {
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+                content: "\f106";
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    // base_sp
+    .section-inner {
+        padding: 0 20px;
+    }
+    .section-title {
+        font-size: 3.2rem;
+    }
+    .section-under-title {
+        font-size: 1.6rem;
+        margin-bottom: 6px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .sp-br {
+        display: block;
+    }
+
+    // header_sp
+    .header {
+        padding: 20px;
+    }
+
+    .header-inner {
+        column-gap: 30px;
+    }
+    .header-item {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+
+    // fv_sp
+    .fv {
+        .fv-wrapper {
+            background-position: right -80px bottom;
+            background-size: contain;
+            min-height: 450px;
+        }
+        .page-title-wrapper {
+            padding-top: 100px;
+            padding-left: 15px;
+        }
+        .page-title-upper {
+            font-size: 1.6rem;
+            margin-bottom: 10px;
+        }
+        .page-title {
+            font-size: 3.8rem;
+            margin-bottom: 5px;
+        }
+        .page-title-bottom {
+            font-size: 2.0rem;
+        }
+
+        .ceo-wrraper {
+            padding-right: 15px;
+        }
+
+        .ceo-name {
+            font-size: 1.4rem;
+        }
+        .ceo-occupation {
+            font-size: 1.2rem;
+        }
+
+        .fv-btn {
+            &::after {
+                right: -30px;
+                bottom: 40px;
+                width: 180px;
+                height: 100px;
+                background-size: contain;
+            }
+        }
+    }
+
+
+    // about_sp
+    .about-section-wrapper {
+        padding: 50px 0;
+    }
+    .about-container {
+        display: block;
+    }
+    .about-img-box {
+        img {
+            height: 200px;
+            object-fit: cover;    
+            object-position: center 38%;
+        }
+    }
+    .about-right-container {
+        .top-text {
+            font-size: 2rem;
+            margin-bottom: 13px;
+            margin-top: 13px;
+        }
+        .theme {
+            font-size: 3.8rem;
+            margin-bottom: 20px;
+        }
+        .theme-content {
+            font-size: 1.6rem;
+        }
+        .about-table {
+            font-size: 1.4rem;
+            th {
+                padding: 2px 0;
+            }
+        }
+    }
+    .link-btn {
+        width: 180px;
+        line-height: 60px;
+    }
+
+
+
+    // speaker_sp
+    .speaker-section-wrapper {
+        padding: 60px 0;
+    }
+    .speaker-name {
+        font-size: 3.2rem;
+    }
+    .jp-name {
+        font-size: 1.6rem;
+    }
+    .speaker-text {
+        margin-top: 25px;
+        font-size: 1.4rem;
+    }
+    .ceo-container {
+        flex-direction: column-reverse;
+    }
+
+    .mihoko-container {
+        flex-direction: column;
+    }
+
+    .jecica-container {
+        flex-direction: column-reverse;
+    }
+
+    //session_sp
+    .session-section-wrapper {
+        padding: 60px 0;
+    }
+    .session-list {
+        letter-spacing: 0;
+    }
+    .session-left {
+        width: 60px;
+    }
+    .session-item {
+        padding: 20px 0;
+        gap: 20px;
+    }
+    .session-item-time {
+        font-size: 1.6rem;
+        white-space: normal;
+        padding-left: 0;
+    }
+    .session-item-title {
+        font-size: 1.8rem;
+        margin-bottom: 1px;
+    }
+    .session-item-body {
+        font-size: 1.4rem;
+    }
+
+
+
+
+    //registor_sp
+    .registor-section-wrapper {
+        padding: 50px 0 60px;
+    }
+    .form {
+        padding: 10px;
+    }
+    .registor-container {
+        padding: 7px 10px 20px 10px;
+        margin: 26px auto 0;
+        .form-input, select {
+            width: 100%;
+        }
+        textarea {
+            width: 100%;
+        }
+    
+        .form-btn {
+            width: 180px;
+            line-height: 60px;    
+            box-shadow: 0 5px 0 #DD118E;
+        }
+    }
+    .checkbox-group {
+        display: block;
+    }
+
+
+
+    //footer_sp
+    .footer {
+        .footer-text {
+            padding: 50px 20px;
+            font-size: 1.2rem;
+        }
+    }
+
+    .pagetop {
+        width: 50px;
+        height: 50px;
+        bottom: 25px;
+        right: 20px;
+
+        .pagetop-arrow {
+            .fa-angle-up {
+                font-size: 1.7rem;
+            }
+        }
+    }
+
+}
