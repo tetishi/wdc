@@ -20,8 +20,11 @@ img {
 .section-title {
     font-size: 6rem;
     color: #D136D1;
-    text-align: center;
+    // text-align: center;
+    // line-height: calc(113 / 60);
     margin-bottom: 56px;
+
+
     span {
         display: block;
         font-size: 2.2rem;
@@ -29,7 +32,13 @@ img {
         font-weight: bold;
     }
 }
-
+// .section-under-title {
+//     font-size: 2.2rem;
+//     text-align: center;
+//     color: #fff;
+//     font-weight: bold;
+//     margin-bottom: 56px;
+// }
 .theme, .theme-content, .about-content, .jp-name, .speaker-text, .session-right, .form {
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -431,10 +440,12 @@ a {
     }
     .section-title {
         font-size: 3.2rem;
-        span {
-            font-size: 1.6rem;
-            margin-bottom: 20px;
-        }
+    }
+    .section-under-title {
+        font-size: 1.6rem;
+        margin-bottom: 6px;
+        font-weight: bold;
+        margin-bottom: 20px;
     }
 
     .sp-br {

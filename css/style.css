@@ -23,15 +23,14 @@ img {
   font-size: 6rem;
   color: #D136D1;
   text-align: center;
+  margin-bottom: 56px;
 }
 
-.section-under-title {
+.section-title span {
+  display: block;
   font-size: 2.2rem;
-  text-align: center;
   color: #fff;
-  margin-bottom: 6px;
   font-weight: bold;
-  margin-bottom: 56px;
 }
 
 .theme, .theme-content, .about-content, .jp-name, .speaker-text, .session-right, .form {
@@ -473,10 +472,8 @@ a {
   .section-title {
     font-size: 3.2rem;
   }
-  .section-under-title {
+  .section-title span {
     font-size: 1.6rem;
-    margin-bottom: 6px;
-    font-weight: bold;
     margin-bottom: 20px;
   }
   .sp-br {

@@ -21,6 +21,7 @@ img {
     font-size: 6rem;
     color: #D136D1;
     text-align: center;
+    // line-height: calc(113 / 60);
     margin-bottom: 56px;
     span {
         display: block;
@@ -436,6 +437,12 @@ a {
             margin-bottom: 20px;
         }
     }
+    // .section-under-title {
+    //     font-size: 1.6rem;
+    //     margin-bottom: 6px;
+    //     font-weight: bold;
+    //     margin-bottom: 20px;
+    // }
 
     .sp-br {
         display: block;
