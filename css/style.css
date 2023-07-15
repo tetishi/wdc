@@ -23,7 +23,6 @@ img {
   font-size: 6rem;
   color: #D136D1;
   text-align: center;
-  line-height: 1;
 }
 
 .section-under-title {
@@ -257,7 +256,7 @@ a {
 .ceo-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 60px;
   column-gap: 60px;
 }
@@ -273,7 +272,7 @@ a {
 .mihoko-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 60px;
   column-gap: 60px;
 }
@@ -289,7 +288,7 @@ a {
 .jecica-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .jecica-right {
