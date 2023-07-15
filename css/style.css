@@ -131,6 +131,10 @@ a {
   font-weight: bold;
 }
 
+.fv .ceo-title {
+  font-size: 1.6rem;
+}
+
 .fv .ceo-occupation {
   font-size: 1.4rem;
   color: #fff;
@@ -510,6 +514,9 @@ a {
   }
   .fv .ceo-name {
     font-size: 1.4rem;
+  }
+  .fv .ceo-title {
+    font-size: 1rem;
   }
   .fv .ceo-occupation {
     font-size: 1.2rem;
