@@ -169,6 +169,10 @@ a {
   column-gap: 70px;
 }
 
+.about-img-box {
+  width: 110%;
+}
+
 .about-right-container p {
   color: #fff;
 }
@@ -533,6 +537,9 @@ a {
   }
   .about-container {
     display: block;
+  }
+  .about-img-box {
+    width: 100%;
   }
   .about-img-box img {
     height: 200px;
